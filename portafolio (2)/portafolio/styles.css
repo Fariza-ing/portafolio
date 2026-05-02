@@ -1,0 +1,82 @@
+nav{
+    background-color: #ede1b9;
+    display: flex;
+    
+}
+body{
+    margin: 10px 10 10 10;
+
+}
+ul{
+    width: 90%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+li{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+
+    color: #06875c;
+    
+}
+
+    
+
+.home{
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+     font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    
+}
+
+.name{
+    font-family: "Bitcount Grid Double", system-ui;
+    color: #06875c;
+}
+
+.btn {
+    display: flex;   
+    margin-top: 10px;
+    color: #00c896;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;     
+    margin-top: 15px;
+    padding: 12px 25px;         
+    background-color: #00c896;  
+    color: white;              
+    text-decoration: none;     
+    font-weight: bold;
+    border-radius: 8px;         /* Bordes redondeados */
+    transition: 0.3s;           /* Animación suave */
+}
+
+/* Efecto al pasar el mouse */
+.btn:hover {
+    background-color: #009f78;
+    transform: scale(1.05);
+}
+
